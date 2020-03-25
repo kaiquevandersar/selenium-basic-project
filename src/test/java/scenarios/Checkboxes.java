@@ -9,7 +9,7 @@ public class Checkboxes extends BaseTest {
 	private PrincipalPage principalpage;
 
 	@Before
-	public void beforetest() {
+	public void beforeTest() {
 		principalpage = new PrincipalPage(driver);
 	}
 

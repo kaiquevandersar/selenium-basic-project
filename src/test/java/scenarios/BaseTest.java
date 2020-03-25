@@ -20,7 +20,7 @@ public class BaseTest {
 	}
 
 	@After
-	public void afterTest() {
+	public void after() {
 		try {
 //      Thread.sleep(3000);
 			driver.close();
